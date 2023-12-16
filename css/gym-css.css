@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(0 0 0 / 0.75), rgb(0 0 0 / 0.5)) ,url('gym.fondo.jpg') center center fixed; color:rgb(0, 0, 0.5 / .5);
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: #f0d8d8;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-left: 10%;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgba(160, 160, 152, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: contents;
+    margin: 0 auto;
+}
+
+texto-adicional {
+    display: none;
+}
+
+boton-leer-mas {
+    background-color:blueviolet;
+    color:#fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: rgb(163,163,163);
+    background: linear-gradient(0deg, rgba(163,163,163,1) 0%, rgba(153,153,153,1) 0%, rgba(4,4,4,1) 100%);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+#link-fotos{
+    background-color: transparent;
+}
+  
+  .col-4 {
+    text-align: center;
+  }
+  
+  .col-4 h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a img {
+    color: white;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+  }
+  #insta{
+    width: 57px;
+    height: 57px;
+  }
+.col-4.nav-footer{
+    display: flex;
+    flex-direction: column;
+} 
+.col-4.nav-footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.col-4.nav-footer a:hover{
+    background-color: red;
+}
+
+.footer img {
+    
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.hr {
+    height: 0px;
+    color: rgb(244, 242, 241);
+    border: 5px solid rgb(35, 36, 35);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gym-css.css">
+    <title>Bodybuilding e Hipertrofia Muscular</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bodybuilding e Hipertrofia Muscular</h1>
+    </header>
+
+    <nav>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#entrenamientos">Entrenamientos</a>
+        <a href="#nutricion">Nutrición</a>
+        <a href="#hipertrofia">Hipertrofia</a>
+    </nav>
+
+    <main>
+
+        <section id="quienes-somos" class="section">
+            <article>
+                <h2>QUIENES SOMOS</h2>
+                <p>Descripción sobre la página y su enfoque en el bodybuilding y la hipertrofia muscular.</p>
+            </article>
+            <article>
+                <img src="cbum.posing.jpeg" alt="Cbum posando">
+            </article>
+        </section>
+        <hr class="hr">
+
+        <section id="entrenamientos" class="section">
+            <article>
+                <h2>ENTRENAMIENTOS</h2>
+                <p>Explora nuestras rutinas de entrenamiento diseñadas para maximizar la hipertrofia muscular.</p>
+            </article>
+            <article>
+                <img src="entrenando.jpg" alt="Imagen Entrenamientos">
+            </article>
+        </section>
+        <hr class="hr">
+
+        <section id="nutricion" class="section">
+            <article>
+                <h2>NUTRICIÓN</h2>
+                <p>Conoce la importancia de la nutrición en el bodybuilding y descubre consejos alimenticios.</p>
+            </article>
+            <article>
+                <img src="nutricion.jpg" alt="Imagen Nutrición">
+            </article>
+        </section>
+        <hr class="hr">
+
+        <section id="hipertrofia" class="section">
+            <article>
+                <h2>HIPERTROFIA</h2>
+                <p>La hipertrofia muscular, conocida comúnmente como hipertrofia, es el proceso mediante el cual los músculos experimentan un notable aumento en tamaño y/o número de miofibrillas. Estas últimas son las unidades contráctiles del músculo, compuestas por filamentos de actina y miosina.</p>
+                <p class="texto-adicional"> Imagina que cada fibra muscular alberga cientos, incluso miles, de estas miofibrillas. Para lograr ese aspecto musculoso que muchos buscan, la hipertrofia se convierte en un objetivo clave. En resumen, la hipertrofia es la meta de aquellos que desean desarrollar músculos más grandes. Algunas personas incluso la consideran un objetivo en sí mismo. Para alcanzar este propósito, es fundamental combinar un entrenamiento de fuerza efectivo con una dieta equilibrada.</p>
+                <button class="boton-leer-mas" onclick="mostrarTextoAdicional()">Leer más</button>
+            </article>
+            <article>
+                <img src="hugo.payaso.png" alt="Imagen Hipertrofia">
+            </article>
+        </section>
+        <hr class="hr">
+
+    </main>
+
+    <footer class="footer">
+        <a>SÍGUEME</a>
+        <a href="https://www.instagram.com/rninipekka.priv/" target="_blank">
+            <img src="logo_ig.png">
+        </a>
+        <a href="https://github.com/cxrrosernaa" target="_blank" >
+            <img src="logo_github.png">
+        </a>
+        <a>
+            <img src="logo_wass.png" onclick="mostrarMensaje()">
+        </a>
+        <p>&copy; 2023 Bodybuilding e Hipertrofia Muscular</p>
+    </footer>
+
+    <script>
+        function mostrarTextoAdicional() {
+            var textoAdicional = document.querySelector('.texto-adicional');
+            var botonLeerMas = document.querySelector('.boton-leer-mas');
+
+            if (textoAdicional.style.display === 'none') {
+                textoAdicional.style.display = 'block';
+                botonLeerMas.textContent = 'Leer menos';
+            } else {
+                textoAdicional.style.display = 'none';
+                botonLeerMas.textContent = 'Leer más';
+            }
+        }
+
+        function mostrarMensaje() {
+            alert('+34645048484');
+        }
+    </script>
+
+</body>
+</html>
